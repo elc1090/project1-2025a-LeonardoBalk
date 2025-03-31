@@ -354,7 +354,7 @@ body, h1, p, ul, li {
     text-shadow: 2px 2px 5px black; 
   }
   
-  .imagem1 {
+.imagem1 {
     position: relative; 
     width: 49.6%;
     height: 100%; 
@@ -365,3 +365,101 @@ body, h1, p, ul, li {
     width: 49.6%; 
     height: 100%; 
 }
+
+.como-funciona{
+    position: absolute;
+    top: 65%;  
+    left: 8%; 
+    background-color: #ffffff;
+    color: #005b1e;
+    border: none;
+    padding: 15px 35px;
+    cursor: pointer;
+    border-radius: 20px; /* botao redono */
+    font-size: 16px;
+    font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
+  }
+
+  .titulo3 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #005b1e;
+    font-size: 32px;
+    font-family: 'Ford Antenna Medium', sans-serif;
+    font-weight: 400;
+  }
+
+  .texto2 {
+    margin: 0.5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #005b1e;
+    font-size: 16px;
+    font-family: 'Ford Antenna Medium', sans-serif;
+    font-weight: 400;
+  }
+
+  .cavalodiv7 {
+    margin-top: 6%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1440 / 400; 
+    width: 1440;
+    height: 400;
+    gap: 2%;
+
+}
+
+.imagem3 {
+    position: relative; 
+    width: 40%;
+    height: 100%; 
+    aspect-ratio: 396 / 295; 
+}
+
+.imagem4 {
+    position: relative; 
+    width: 40%; 
+    height: 100%; 
+    aspect-ratio: 396 / 295; 
+}
+
+.titulo4{
+    position: relative;
+    top: 30%;
+    left: 7.5%; 
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black; 
+  }
+
+  .texto-cavalo6 {
+    position: relative;
+    top: 40%;  
+    left: 5%; 
+    color: #ffffff;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
+    text-shadow: 2px 2px 5px black; 
+}
+
+.veja-informacao{
+    position: relative;
+    top: 65%;  
+    left: 8%; 
+    background-color: #ffffff;
+    color: #005b1e;
+    border: none;
+    padding: 15px 35px;
+    cursor: pointer;
+    border-radius: 20px; /* botao redono */
+    font-size: 16px;
+    font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
+  }
