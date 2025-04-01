@@ -7,7 +7,19 @@ body, h1, p, ul, li {
 }
 
 .borda-cima {
-    background-color: #d66464cc;
+    background-color: #f0f0f0;
+    justify-content: center;
+    height: 30px;
+}
+
+.borda-cima h1 {
+    font-size: 14px;
+    text-align: end;
+    align-items: center;
+    margin-right: 10%;
+    justify-content: center;
+    color: #ce9300;
+    
 }
 
 .navbar {
@@ -37,11 +49,12 @@ body, h1, p, ul, li {
 
 .menu a {
     text-decoration: none;
-    color: #1b4e22;
+    color: #ffbb02;
     font-weight: 600;
     padding: 8px;
     font-size: 12px;
     font-family: "Ford Antenna", Arial, Helvetica, sans-serif !important;
+    text-shadow: 1px 1px 0.5px #ffbb02; 
 }
 
 .menu a:hover {
@@ -77,7 +90,7 @@ body, h1, p, ul, li {
     left: 10%; 
     transform: translate(-50%, -50%); 
     background-color: rgba(255, 255, 255);
-    color: #005b1e;
+    color: #dfa40f;;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -117,7 +130,7 @@ body, h1, p, ul, li {
     position: relative;
     justify-content: center;
     align-items: center;
-    color: #005b1e;
+    color: #dfa40f;;
     font-size: 42px;
     font-family: 'Ford Antenna Medium', sans-serif;
     font-weight: 400;
@@ -125,7 +138,7 @@ body, h1, p, ul, li {
 
 .botao-vertodos {
     margin-top: 4%;
-    background-color: #005b1e;
+    background-color: #dfa40f;
     color: #ffffff;
     border: none;
     padding: 15px 35px;
@@ -134,6 +147,7 @@ body, h1, p, ul, li {
     font-size: 16px;
     font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
     box-shadow: 2px 2px 5px black;
+
 }
 
 .cavalo2 {
@@ -167,7 +181,7 @@ body, h1, p, ul, li {
     top: 55%;  
     left: 8%; 
     background-color: #ffffff;
-    color: #005b1e;
+    color: #dfa40f;;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -221,7 +235,7 @@ body, h1, p, ul, li {
     top: 55%;  
     left: 8%; 
     background-color: #ffffff;
-    color: #005b1e;
+    color: #dfa40f;;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -257,7 +271,7 @@ body, h1, p, ul, li {
     top: 55%;  
     left: 8%; 
     background-color: #ffffff;
-    color: #005b1e;
+    color: #dfa40f;;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -323,7 +337,7 @@ body, h1, p, ul, li {
     top: 55%;  
     left: 8%; 
     background-color: #ffffff;
-    color: #005b1e;
+    color: #dfa40f;;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -371,7 +385,7 @@ body, h1, p, ul, li {
     top: 65%;  
     left: 8%; 
     background-color: #ffffff;
-    color: #005b1e;
+    color: #dfa40f;;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -380,28 +394,28 @@ body, h1, p, ul, li {
     font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
   }
 
-  .titulo3 {
+ .titulo3 {
     position: relative;
     justify-content: center;
     align-items: center;
-    color: #005b1e;
+    color: #dfa40f;;
     font-size: 32px;
     font-family: 'Ford Antenna Medium', sans-serif;
     font-weight: 400;
   }
 
-  .texto2 {
+.texto2 {
     margin: 0.5%;
     position: relative;
     justify-content: center;
     align-items: center;
-    color: #005b1e;
+    color: #dfa40f;;
     font-size: 16px;
     font-family: 'Ford Antenna Medium', sans-serif;
     font-weight: 400;
   }
 
-  .cavalodiv7 {
+.cavalodiv7 {
     margin-top: 6%;
     position: relative;
     display: flex;
@@ -415,47 +429,48 @@ body, h1, p, ul, li {
 }
 
 .imagem3 {
-    position: relative; 
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%; 
     height: 100%; 
     aspect-ratio: 396 / 295; 
 }
 
 .imagem4 {
-    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 40%; 
     height: 100%; 
     aspect-ratio: 396 / 295; 
 }
 
 .titulo4{
-    position: relative;
-    top: 30%;
+    margin-top: 5%;
     left: 7.5%; 
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px black; 
+    color: #dfa40f;;
+    font-size: 18px;
+    font-weight: 100px;
   }
 
   .texto-cavalo6 {
-    position: relative;
-    top: 40%;  
+    top: 30%;
     left: 5%; 
-    color: #ffffff;
+    color: #dfa40f;
+    font-weight: 0;
     border: none;
     padding: 15px 35px;
-    font-size: 18px;
+    font-size: 14px;
     font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
-    text-shadow: 2px 2px 5px black; 
 }
 
 .veja-informacao{
-    position: relative;
-    top: 65%;  
-    left: 8%; 
-    background-color: #ffffff;
-    color: #005b1e;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: #dfa40f;
+    color: #ffffff;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
@@ -463,3 +478,130 @@ body, h1, p, ul, li {
     font-size: 16px;
     font-family: "Ford Antenna Medium", Arial, Helvetica, sans-serif !important;
   }
+  
+footer {
+    background: #dfa40f;
+    color: white;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 10px; 
+    background: #ffffff;
+    color: black;
+    text-align: left;
+    width: 100%;
+    margin-top: 20%;
+    cursor: pointer;
+    font-weight: 200px;
+    color: #dfa40f;
+}
+
+.informacoes div {
+    padding: 10px; 
+    border-bottom: 1px solid gray; 
+    background-color: #ffffff;
+}
+
+.informacoes div:last-child {
+    border-bottom: none;
+}
+
+.informacoes div:first-child {
+    border-top: 1px solid gray; 
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.redes-sociais img {
+    width: 38px;
+    height: 38px;
+}
+
+.pesquisa {
+    text-align: left;
+
+}
+
+.pesquisa input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.pesquisa div {
+    background-color: #ffb700;
+    height: 100px;
+    width: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    cursor: pointer;
+
+}
+
+.links div {
+    max-width: 200px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 5px 0;
+}
+
+.rodape {
+    background-color: #dfa40f;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape-texto {
+    font-size: 14px;
+    color: #666;
+}
+
+.rodape-texto a {
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+.rodape-texto a:hover {
+    text-decoration: underline;
+}
+
+.rodape-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.rodape-info img {
+    height: 40px; 
+}
+
+.rodape2 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
